@@ -1,0 +1,530 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+/* header start */
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.container{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 12%;
+	
+	float: left;
+	margin-top: 32px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 60%;
+	
+	float: right;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding:35px 20px;
+	display: block; 
+	text-transition:.5s;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.menu ul li a:hover{
+	color: #4E559E;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/* header end*/
+
+
+/* banner start*/
+.banner{
+	
+	background-image: url(../images/bg.jpg);
+}
+
+.banner-content{
+	width: 56%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.banner-content p{
+	margin-top: 222px;
+	font-weight: 300;
+	font-size: 28px;
+	color: #f3f3f5;
+}
+
+.banner-content h1{
+	font-size: 66px;
+	color: #ffffff;
+	margin-top:20px;
+	margin-bottom:60px;
+}
+
+.banner-content button{
+	font-size: 23px;
+	padding:16px 70px;
+	border: none;
+	border:2px solid white;
+	background:transparent;
+	transition: .5s;
+	color: white;
+	margin-bottom: 70px;
+}
+
+.banner-content button:hover{
+	color: #676478;
+	background-color: #626262;
+	margin: 60px 0;
+}
+
+/* banner end*/
+
+/* web part start*/
+
+.web{
+	margin:80px 0;
+}
+
+.web-content{
+	width: 63%;
+	margin:0 auto;
+	float: left;
+}
+
+.web-content h1{
+	font-weight: 700;
+	font-size: 60px;
+	margin: 21px 0;
+	color: #222222;
+}
+
+.web-content span{
+	font-weight: 300;
+	font-size: 60px;
+	color: #989898;
+}
+
+.web-content p{
+	font-size: 18px;
+}
+
+.web-logo{
+	width: 22%;
+	
+	float: right;
+	margin-top: 48px;
+}
+
+.web-logo img{
+	width: 100%;
+}
+
+/* web part end*/
+
+
+/* identity part start*/
+
+.identity{
+	background-color: #fafafa;
+	margin-bottom: 80px;
+}
+
+.identity-content{
+	width: 63%;
+	margin:0 auto;
+	float: right;
+}
+
+.identity-content h1{
+	font-weight: 700;
+	font-size: 60px;
+	margin: 21px 0;
+	color: #222222;
+}
+
+.identity-content span{
+	font-weight: 300;
+	font-size: 60px;
+	color: #989898;
+}
+.identity-content p{
+	font-size: 18px;
+}
+
+.identity-logo{
+	width: 24%;
+	float: left;
+	margin-top: 75px;
+}
+
+.identity-logo img{
+	width: 100%;
+}
+
+
+/* identity part end*/
+
+
+/* branding part start */
+
+.single{ 
+	width: 46%;
+	float: left;
+}
+
+ .single:last-child{
+ 	margin-left: 6%;
+ }
+
+
+.branding-content{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.and{
+	width: 84%;
+	float: right;
+}
+
+.and h3{
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.and p{
+	font-size: 14px;
+}
+
+.icon{
+	width: 12%;
+	
+	float: left;
+	margin-top: 20px;
+}
+
+.icon img{
+	width:100%; 
+}
+
+/* branding part end */
+
+/* Awesome part start */
+
+
+.awesome{
+	background-color: #fafafa;
+	padding:80px 0;
+	margin:28px 0;
+}
+
+.wesome-content{
+	width: 33%;
+	margin:0 auto; 
+}
+
+.wesome-content h2{
+	font-weight: 700;
+	font-size: 40px;
+	color: #222222;
+}
+
+.wesome-content span{
+	font-weight: 300;
+	font-size: 40px;
+	color: #222222;
+}
+
+.wesome-content p{
+	font-size: 16px;
+	color: #222222;
+}
+
+
+
+
+/* Awesome part end */
+
+/* proin part start */
+
+.proin{
+	background-color: #fafafa;
+}
+	.proin-content {
+      width: 120px;
+      height: 80px;
+      background: #ffffff;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .proin-content:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 86px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid white;
+      border-bottom: 13px solid transparent;
+    }
+
+.proin-content{
+	width: 50%;
+	float: right;
+	padding: 65px;
+}
+
+	
+.proin-content p{
+	font-size: 22px;
+}
+
+.proin-content span{
+	font-size: 20px;
+	color: #9baed4;
+}
+
+.proin-logo{
+	width: 20%;
+	float: left;
+}
+
+.proin-logo img{
+	width: 100%;
+}
+
+
+
+
+/* proin part end */
+
+/* proin part2 start */
+
+.proin2{
+	background-color: #fafafa;
+	padding:50px 0;
+}
+
+.proin2-content {
+      width: 120px;
+      height: 80px;
+      background: #ffffff;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+}
+
+.proin2-content:before {
+      content: "";
+      position: absolute;
+      right: 100%;
+      top: 86px;
+      width: 0;
+      height: 0;
+      border-top: 13px solid transparent;
+      border-right: 26px solid red;
+      border-bottom: 13px solid transparent;
+}
+
+
+.proin2-content{
+	width: 50%;
+	
+	float: left;
+	padding: 65px;
+}
+
+
+
+.proin2-content p{
+	font-size: 22px;
+}
+
+.proin2-content span{
+	font-size: 20px;
+	color: #9baed4;
+}
+
+.proin2-logo{
+	width: 20%;
+	float: right;
+}
+
+
+.proin2-logo img{
+	width: 100%;
+}
+
+
+
+
+/* proin part2 end */
+
+/* env part start */
+
+.env{
+	background-color: #ffffff;
+	padding:20px 0;
+}
+
+.icon2{
+	width: 90%;
+	margin:0 auto;
+	float: right;
+	padding: 20px;
+}
+
+.icon2 ul{
+	float: right;
+}
+
+.icon2 ul li{
+	list-style: none;
+	float: left;
+}
+
+.icon2 ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 40px;
+}
+
+.icon2 ul li:last-child a{
+	padding-right: 0;
+}
+
+/* env part end */
+
+/* Amazing part start*/
+
+.amazing{
+	background-color:#111111;
+}
+
+.amazing2{
+	width: 30%;
+	
+	float: left;
+	margin-left: 33px;
+	padding:65px 0;
+}
+
+.amazing2:last-child{
+	margin-right: 0;
+}
+
+.amazing-content{
+	width: 100%;
+	text-align: center;
+	margin:0 auto;
+}
+
+.amazing-content h3{
+	margin-top: 65px;
+	font-weight: 700;
+	font-size: 60px;
+	color: #ffffff;
+}
+.amazing-content span{
+	font-weight: 300;
+	color: #ffffff;
+}
+
+.amazing-content p{
+	font-size: 22px;
+	color: #707070;
+}
+
+.wrapper{
+	width: 100%;
+	text-align: center;
+}
+
+.wrapper img{
+	width: 100%;
+}
+
+.wrapper h5{
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.wrapper p{
+	font-size: 16px;
+	color: #efefef;
+}
+
+.icon3{
+	width: 100%;
+	overflow: hidden;
+	margin-left: 75px;
+}
+
+.icon3 ul li{
+	float: left;
+}
+
+.icon3 ul li img{
+	display: block;
+	padding:10px 13px;
+}
+
+.common{
+	width: 70%;
+	font-size: 20px;
+	color:#b1b1b1;
+	text-align: center;
+	margin-top: 55px;
+	margin-left: 157px;
+}
+
+
+
+
+
+
+
+
+/* Amazing part end*/
+
+
+
